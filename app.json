@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "EventEdge",
+    "slug": "EventEdge",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/ee-icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+"package": "com.anonymous.EventEdge",
+  "intentFilters": [],
+  "usesCleartextTraffic": true
+    },
+    "updates": {
+      "enabled": false,
+      "checkAutomatically": "never"
+    },
+    "packagerOpts": {
+      "hostType": "lan"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/ee-icon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/ee-splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
